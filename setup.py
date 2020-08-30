@@ -40,7 +40,7 @@ else:
 
 
 setup(
-    name="dohq-artifactory",
+    name="dohq-artifactory-elbit",
     version=__version__,
     py_modules=["artifactory"],
     license="MIT License",
