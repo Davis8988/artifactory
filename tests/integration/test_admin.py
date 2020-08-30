@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-from dohq_artifactory.admin import Group
-from dohq_artifactory.admin import PermissionTarget
-from dohq_artifactory.admin import RepositoryLocal
-from dohq_artifactory.admin import User
+from dohq_artifactory_elbit.admin import Group
+from dohq_artifactory_elbit.admin import PermissionTarget
+from dohq_artifactory_elbit.admin import RepositoryLocal
+from dohq_artifactory_elbit.admin import User
 
 
 class TestUser:

@@ -71,5 +71,5 @@ setup(
     ],
     zip_safe=False,
     package_data={"": ["README.md"]},
-    packages=["dohq_artifactory"],
+    packages=["dohq_artifactory_elbit"],
 )

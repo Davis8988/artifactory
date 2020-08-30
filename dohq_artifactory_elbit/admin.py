@@ -7,7 +7,7 @@ import time
 import jwt
 import requests
 
-from dohq_artifactory.exception import ArtifactoryException
+from dohq_artifactory_elbit.exception import ArtifactoryException
 
 
 def rest_delay():

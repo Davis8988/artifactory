@@ -38,14 +38,14 @@ from itertools import islice
 import dateutil.parser
 import requests
 
-from dohq_artifactory.admin import Group
-from dohq_artifactory.admin import PermissionTarget
-from dohq_artifactory.admin import Repository
-from dohq_artifactory.admin import RepositoryLocal
-from dohq_artifactory.admin import RepositoryRemote
-from dohq_artifactory.admin import RepositoryVirtual
-from dohq_artifactory.admin import User
-from dohq_artifactory.auth import XJFrogArtApiAuth
+from dohq_artifactory_elbit.admin import Group
+from dohq_artifactory_elbit.admin import PermissionTarget
+from dohq_artifactory_elbit.admin import Repository
+from dohq_artifactory_elbit.admin import RepositoryLocal
+from dohq_artifactory_elbit.admin import RepositoryRemote
+from dohq_artifactory_elbit.admin import RepositoryVirtual
+from dohq_artifactory_elbit.admin import User
+from dohq_artifactory_elbit.auth import XJFrogArtApiAuth
 
 try:
     import requests.packages.urllib3 as urllib3

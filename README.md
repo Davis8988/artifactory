@@ -382,7 +382,7 @@ You can see detailed use of `AdminObject` in file `.\tests\integration\test_admi
 ## User
 ```python
 # Find or create first way
-from dohq_artifactory import generate_password, User
+from dohq_artifactory_elbit import generate_password, User
 
 user = artifactory_.find_user("username")
 if user is None:
@@ -422,7 +422,7 @@ user.delete()
 
 ```python
 # Find
-from dohq_artifactory import generate_password, Group
+from dohq_artifactory_elbit import generate_password, Group
 
 group = artifactory_.find_group("groupname")
 
@@ -455,7 +455,7 @@ test_group.create()
 ## RepositoryLocal
 ```python
 # Find
-from dohq_artifactory import generate_password, RepositoryLocal
+from dohq_artifactory_elbit import generate_password, RepositoryLocal
 
 repo = artifactory_.find_repository_local("reponame")
 
@@ -474,7 +474,7 @@ repo.delete()
 ## RepositoryVirtual
 ```python
 # Find
-from dohq_artifactory import RepositoryVirtual
+from dohq_artifactory_elbit import RepositoryVirtual
 
 repo = artifactory_.find_repository_virtual("pypi.all")
 
@@ -500,7 +500,7 @@ repo.delete()
 ## RepositoryRemote
 ```python
 # Find
-from dohq_artifactory import RepositoryRemote
+from dohq_artifactory_elbit import RepositoryRemote
 
 repo = artifactory_.find_repository_virtual("pypi.all")
 
@@ -539,7 +539,7 @@ And for more modular control:
 - `PermissionTarget.READ` - Allows reading and downloading of artifacts
 
 ```python
-from dohq_artifactory import PermissionTarget
+from dohq_artifactory_elbit import PermissionTarget
 
 permission = artifactory_.find_permission_target("rule")
 
@@ -558,7 +558,7 @@ https://www.jfrog.com/confluence/display/RTF5X/Access+Tokens#AccessTokens-RESTAP
 ```python
 from requests.auth import HTTPBasicAuth
 from artifactory import ArtifactoryPath
-from dohq_artifactory import Token
+from dohq_artifactory_elbit import Token
 
 session = ArtifactoryPath(
     "https://artifactory_dns/artifactory",

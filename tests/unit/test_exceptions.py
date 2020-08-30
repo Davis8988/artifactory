@@ -4,8 +4,8 @@ import unittest
 import mock
 import requests
 
-from dohq_artifactory.admin import raise_errors
-from dohq_artifactory.exception import ArtifactoryException
+from dohq_artifactory_elbit.admin import raise_errors
+from dohq_artifactory_elbit.exception import ArtifactoryException
 
 
 class UtilTest(unittest.TestCase):
